@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Positive First"
+        android:id="@+id/sort_positive_first"
+        />
+    <item
+        android:title="Negative First"
+        android:id="@+id/sort_negative_first"
+        />
+    <item
+        android:title="Shuffle"
+        android:id="@+id/sort_shuffle"
+        />
+
+</menu><!-- From: file:/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/res/menu/sort.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    >
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="120dp"
+        android:id="@+id/dropdown_menu_choice"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout><!-- From: file:/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/res/layout/dropdown_menu_item.xml -->

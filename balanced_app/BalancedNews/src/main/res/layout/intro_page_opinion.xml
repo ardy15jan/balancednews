@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:id="@+id/intro_image"
+        android:src="@drawable/topic_card_opinion"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+         >
+        <TextView
+            android:layout_height="18dp"
+            android:layout_width="100dp"
+            android:background="#99CC00"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Positive"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_height="18dp"
+            android:layout_width="100dp"
+            android:background="#CC0000"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Negative"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/intro_text"
+        android:layout_gravity="center_horizontal"
+        android:textSize="27sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="And highlights the opinion of news for you"
+        />
+
+
+
+</LinearLayout>

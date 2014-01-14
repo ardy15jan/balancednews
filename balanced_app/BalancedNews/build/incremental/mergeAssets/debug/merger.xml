@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComAndroidSupportAppcompatV71800.aar" >
+        <source path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets" >
+            <file
+                name="fonts/Roboto/Roboto-Medium.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-Medium.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-Light.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-Light.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-Thin.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-Thin.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-LightItalic.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-LightItalic.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-Regular.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-Regular.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-ThinItalic.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/Roboto-ThinItalic.ttf" />
+            <file
+                name="fonts/Roboto/RobotoCondensed-Light.ttf"
+                path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/assets/fonts/Roboto/RobotoCondensed-Light.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/debug/assets" />
+    </dataSet>
+
+</merger>

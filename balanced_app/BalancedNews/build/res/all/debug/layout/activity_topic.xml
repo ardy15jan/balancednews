@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E0E0E0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopicActivity">
+
+    <ListView
+        android:id="@+id/news_list"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:dividerHeight="0px"
+        android:divider="@null"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+
+    <RelativeLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="#5F000000"
+        android:id="@+id/intro_topic_view"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="This list shows news of the subject.\n \nTry BUTTOM on the top right to sort news."
+                android:textSize="19sp"
+                android:id="@+id/intro_topic_text"
+
+                />
+
+            <Button
+                android:layout_height="35dp"
+                android:layout_width="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Got it!"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/tag_background"
+                android:id="@+id/dismiss_intro_topic"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/res/layout/activity_topic.xml -->

@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+
+
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'com.android.support:appcompat-v7:18.0.0'
+	compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/gson-2.2.4.jar')
+
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion '17.0.0'
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 16
+    }
+}
+

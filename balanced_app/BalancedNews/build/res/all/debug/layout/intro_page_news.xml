@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:id="@+id/intro_image"
+        android:src="@drawable/news_card"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/intro_text"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="27sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="Read news articles individually with its overall polarity"
+        />
+
+
+
+</RelativeLayout><!-- From: file:/home/xtang/AndroidStudioProjects/BalancedNewsProject/BalancedNews/src/main/res/layout/intro_page_news.xml -->

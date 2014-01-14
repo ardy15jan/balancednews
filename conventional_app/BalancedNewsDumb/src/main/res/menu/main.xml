@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_questionnaire"
+        android:title="Questionnaire"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_edit"
+        />
+
+</menu>

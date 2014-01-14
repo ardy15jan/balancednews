@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/list_item_background"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="#8F33B5E5"
+            android:text="TOPIC"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/topic_num"
+
+            />
+        <LinearLayout
+            android:layout_below="@+id/topic_num"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/wrapper">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+
+                    android:layout_width="wrap_content"
+                    android:id="@+id/topic_title_positive"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="1.5dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+
+                    android:layout_width="wrap_content"
+                    android:id="@+id/topic_title_negative"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="1.5dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="5dp"
+                android:id="@+id/subject_polarity"
+                android:background="#00FFFFFF"
+                >
+                <ch.epfl.lia.customized.OpinionCircle
+                    android:id="@+id/circle_progressbar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignRight="@+id/topic_title"
+                    android:background="#00FFFFFF"
+                    />
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="60dp"
+                    android:text="Positive"
+                    android:textSize="13sp"
+                    android:id="@+id/opinion_label"
+                    android:gravity="center_horizontal"
+                    android:background="#00FFFFFF"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_height="90dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/topic_image"
+            android:visibility="gone"
+            />
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/wrapper"
+            android:layout_marginTop="25dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/tags"
+
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tag_background"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/tag1"
+                    android:layout_marginBottom="10dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tag_background"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/tag2"
+                    android:layout_marginBottom="10dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tag_background"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/tag3"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_height="25dp"
+                android:layout_width="25dp"
+                android:textSize="11sp"
+                android:paddingRight="1dp"
+
+                android:gravity="bottom|right"
+                android:background="@drawable/index_background"
+                android:id="@+id/topic_content"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
