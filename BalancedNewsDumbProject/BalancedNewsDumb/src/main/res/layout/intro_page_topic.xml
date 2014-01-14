@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:id="@+id/intro_image"
+        android:src="@drawable/topic_card_dummy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="What do you mean by subject? \n Tell me!"
+        android:background="@drawable/tag_background"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/intro_image"
+        android:id="@+id/intro_subject_button"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/intro_text"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="27sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:text="A news reader which groups news by subject"
+        />
+
+
+
+</RelativeLayout>

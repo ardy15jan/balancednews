@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.epfl.lia.balancednewsdumb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/news_icon"
+        android:label="Dummy News"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="lia.balancednewsdump.MainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="lia.balancednewsdump.TopicActivity"
+            android:label="@string/title_activity_topic"
+            android:parentActivityName="ch.epfl.lia.balancednews.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lia.balancednews.MainActivity"
+                />
+        </activity>
+        <activity
+            android:name="lia.balancednewsdump.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName="ch.epfl.lia.balancednews.TopicActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lia.balancednews.TopicActivity"
+                />
+        </activity>
+        <activity
+            android:name="lia.balancednewsdump.QuestionActivity"
+            android:label="@string/title_activity_question" >
+        </activity>
+
+        <activity
+            android:name="lia.balancednewsdump.IntroActivity"
+            android:label="Black News" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
