@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/library/stanford-parser.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/web content extraction/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/web content extraction/nekohtml-1.9.18/nekohtml.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/library/boilerpipe.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/Opinion_Module/package/thirdparty/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/Opinion_Module/package/thirdparty/javacsv.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/web content extraction/mysql-connector-java-5.1.26/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/library/stanford-parser-3.2.0-models.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/library/Jama-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/xtang/Master_Project/Opinion_Module/OpinionExtraction.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
